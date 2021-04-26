@@ -79,7 +79,7 @@
         if (targetId == "lets-connect-section") {
           document.getElementById("skill-section-display").style.display =
             "block";
-            document.getElementById("exp-section-display").style.display =
+          document.getElementById("exp-section-display").style.display =
             "block";
         }
         setTimeout(function () {
@@ -166,10 +166,20 @@
           </div>
           <nav>
             <ul>
-              <a onclick="smoothScrollMob('about-me', 'about-me-display')"><li>About Me</li></a>
-              <a onclick="smoothScrollMob('skills-section', 'skill-section-display')"><li>Skills</li></a>
-              <a onclick="smoothScrollMob('exp-section', 'exp-section-display')"><li>Experience</li></a>
-              <a onclick="smoothScrollMob('lets-connect-section', 'lets-connect-display')"><li>Let's Connect</li></a>
+              <a onclick="smoothScrollMob('about-me', 'about-me-display')"
+                ><li>About Me</li></a
+              >
+              <a
+                onclick="smoothScrollMob('skills-section', 'skill-section-display')"
+                ><li>Skills</li></a
+              >
+              <a onclick="smoothScrollMob('exp-section', 'exp-section-display')"
+                ><li>Experience</li></a
+              >
+              <a
+                onclick="smoothScrollMob('lets-connect-section', 'lets-connect-display')"
+                ><li>Let's Connect</li></a
+              >
             </ul>
           </nav>
         </div>
@@ -302,18 +312,18 @@
       </div>
     </section>
 
-    <section class="experience">
+    <section class="experience" id="exp-section">
       <div class="experience-bg"></div>
-      <div id="exp-section" class="section-container">
+      <div
+        class="section-container"
+        id="exp-section-display"
+        style="display: none;"
+      >
         <div class="title">
           <span>Experience</span>
         </div>
         <div class="underline-border"></div>
-        <div
-          class="timeline-container"
-          id="exp-section-display"
-          style="display: none;"
-        >
+        <div class="timeline-container">
           <div class="timeline">
             <div class="pointer first-point first-animation">
               <svg
