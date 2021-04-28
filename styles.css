@@ -45,7 +45,7 @@ body {
   color: #ffff;
   font-family: "Open Sans";
   padding: 10px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .header .right-links nav ul a:hover {
@@ -54,8 +54,8 @@ body {
 }
 
 .header .logo-holder {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   position: relative;
 }
 
@@ -97,11 +97,11 @@ body {
 }
 
 .intro-content .myname {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .intro-content .desc {
-  font-size: 1.25em;
+  font-size: 1.15em;
   font-family: "Roboto";
   letter-spacing: 9px;
   /* margin-top: 55px; */
@@ -109,8 +109,8 @@ body {
 }
 
 .profil-pic-holder {
-  width: 314px;
-  height: 310px;
+  width: 284px;
+  height: 280px;
   display: block;
   box-shadow: none;
   border-style: solid;
@@ -122,8 +122,8 @@ body {
 }
 
 .profil-pic {
-  width: 318px;
-  height: 314px;
+  width: 288px;
+  height: 284px;
   object-fit: cover;
   object-position: 50% 50%;
 }
@@ -165,11 +165,11 @@ section.skills {
 .section-container {
   max-width: 960px;
   margin: auto;
-  padding: 170px 10px;
+  padding: 70px 10px;
 }
 
 .section-container .title {
-  font-size: 33px;
+  font-size: 2em;
   color: #fff;
   text-transform: capitalize;
   font-family: "Lulo Clean";
@@ -181,7 +181,7 @@ section.skills {
   background-color: rgb(51, 59, 80);
   margin: 0 auto;
   margin-top: 50px;
-  padding: 90px 120px;
+  padding: 50px 120px 80px;
 }
 
 .underline-border {
@@ -357,7 +357,7 @@ section.skills {
 }
 
 .timeline-container {
-  margin-top: 100px;
+  margin-top: 60px;
   height: 750px;
 }
 
@@ -440,19 +440,20 @@ section.skills {
 }
 
 .timeline .exp-content {
-  width: 500px;
+  width: 100%;
+  max-width: 300px;
   visibility: hidden;
 }
 .timeline .exp-content .year {
   color: #00d646;
   font-family: "Roboto";
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bolder;
 }
 .timeline .exp-content .company {
   color: #fff;
   font-family: "Open Sans";
-  font-size: 42px;
+  font-size: 30px;
   margin-top: 10px;
   margin-left: -3px;
   margin-bottom: 5px;
@@ -460,13 +461,13 @@ section.skills {
 .timeline .exp-content .project {
   color: #fff;
   font-family: "Open Sans";
-  font-size: 25px;
+  font-size: 20px;
   margin-top: -6px;
 }
 .timeline .exp-content .desc {
   color: #fff;
   font-family: "Roboto";
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .timeline .exp-content.left-side {
@@ -474,7 +475,7 @@ section.skills {
   text-align: left;
 }
 .timeline .exp-content.right-side {
-  margin-left: -570px;
+  margin-left: -370px;
   text-align: right;
 }
 
@@ -525,9 +526,9 @@ section.skills {
 .contact-me p {
   font-family: "Roboto", sans-serif;
   line-height: 1.4em;
-  font-size: 35px;
+  font-size: 1.75em;
   color: #fff;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .contact-me .sm-links a {
