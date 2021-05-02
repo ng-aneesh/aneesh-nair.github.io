@@ -319,7 +319,7 @@ section.skills {
 
   position: absolute;
   width: 100%;
-  height: 1260px;
+  height: 1320px;
   z-index: -1;
 }
 
@@ -358,7 +358,8 @@ section.skills {
 
 .timeline-container {
   margin-top: 60px;
-  height: 750px;
+  height: 1200px;
+  margin-bottom: 70px;
 }
 
 .timeline-container .timeline {
@@ -389,11 +390,11 @@ section.skills {
   left: -6px;
 }
 .timeline-container .timeline .pointer.second-point {
-  top: 250px;
+  top: 400px;
   left: -6px;
 }
 .timeline-container .timeline .pointer.third-point {
-  top: 495px;
+  top: 825px;
   left: -6px;
 }
 .timeline-container .timeline .pointer.fourth-point {
@@ -440,8 +441,8 @@ section.skills {
 }
 
 .timeline .exp-content {
-  width: 300px;
-  max-width: 300px;
+  width: 400px;
+  max-width: 400px;
   visibility: hidden;
 }
 .timeline .exp-content .year {
@@ -467,7 +468,7 @@ section.skills {
 .timeline .exp-content .desc {
   color: #fff;
   font-family: "Roboto";
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .timeline .exp-content.left-side {
@@ -475,7 +476,7 @@ section.skills {
   text-align: left;
 }
 .timeline .exp-content.right-side {
-  margin-left: -370px;
+  margin-left: -470px;
   text-align: right;
 }
 
@@ -540,7 +541,7 @@ section.skills {
 }
 
 .lets-connect-section {
-  margin-top: 150px;
+  margin-top: 230px;
 }
 
 .ham-menu-container a:not([href]):not([class]):hover {
@@ -549,7 +550,7 @@ section.skills {
 
 @media only screen and (min-width: 769px) and (max-width: 1040px) {
   .timeline-container {
-    height: 1040px;
+    height: 1440px;
   }
 
   .timeline .exp-content.left-side {
@@ -565,10 +566,22 @@ section.skills {
   }
 
   .timeline-container .timeline .pointer.second-point {
-    top: 350px;
+    top: 450px;
   }
   .timeline-container .timeline .pointer.third-point {
-    top: 695px;
+    top: 985px;
+  }
+
+  .about-me-bg {
+    height: 1320px;
+  }
+
+  .experience-bg {
+    height: 2700px;
+  }
+
+  .lets-connect-section {
+    margin-top: 300px;
   }
 }
 
@@ -582,7 +595,7 @@ section.skills {
   }
 
   .timeline-container {
-    height: 1040px;
+    height: 1440px;
   }
 
   .timeline .exp-content.left-side {
@@ -598,10 +611,18 @@ section.skills {
   }
 
   .timeline-container .timeline .pointer.second-point {
-    top: 350px;
+    top: 450px;
   }
   .timeline-container .timeline .pointer.third-point {
-    top: 695px;
+    top: 985px;
+  }
+
+  .experience-bg {
+    height: 3060px;
+  }
+
+  .about-me-bg {
+    height: 1845px;
   }
 }
 
@@ -744,6 +765,10 @@ section.skills {
     display: block;
   }
 
+  .experience-bg {
+    height: 2600px;
+  }
+
   .timeline-container-mob .exp-content .year {
     color: #00d646;
     font-family: "Roboto";
@@ -791,5 +816,9 @@ section.skills {
 
   .contact-me p {
     margin-top: 10px;
+  }
+
+  .contact-me .sm-links a {
+    margin-right: 5px;
   }
 }
